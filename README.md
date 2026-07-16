@@ -14,7 +14,7 @@ A função principal da biblioteca é a `randlist`, que aceita até quatro parâ
 ### Parâmetros:
 * size (int): A quantidade de números que você deseja gerar na lista.
 * max_val(int ou float)*: O valor máximo que um número sorteado pode atingir (o sorteio ocorre sempre de 1 até `max_val`).
-* allow_duplicates(bool, opcional, padrão=False)*: Se definido como `True`, permite que os números se repitam na lista.
+* allow_duplicates(bool, opcional, padrão=False): Se definido como `True`, permite que os números se repitam na lista.
 *  Se `False`, garante exclusividade total (todos os números serão diferentes).
 * use_floats (bool, opcional, padrão=False)*: Se definido como `True`, gera números reais (com casas decimais). Se `False`, gera apenas números inteiros.
 
