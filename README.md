@@ -24,8 +24,6 @@ A função principal da biblioteca é a `randlist`, que aceita até quatro parâ
 
 Abaixo, veja 4 cenários de uso, do mais básico até o tratamento de exceções matemáticas:
 
-#### 1. Uso Básico (Sorteio Simples)
-Gera uma lista de inteiros exclusivos. Excelente para sorteios estilo "loteria" ou amostragem de dados únicos.
 ```python
 from marcos_randtools import randlist
 
