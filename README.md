@@ -41,27 +41,42 @@ lancamentos = randlist(size=10, max_val=6, allow_duplicates=True) ou lancamentos
 print(lancamentos)
 # Possível saída: [3, 6, 1, 3, 2, 6, 5, 1, 4, 3]
 ----------------------------------------------------------------------------
+#### 3. Nível Avançado (Gerando Números Reais)
+Para gerar números decimais (floats) sem repetição, passamos `False` no terceiro parâmetro e `True` no quarto.
+
+```python
 from marcos_randtools import randlist
 
-# Gerando 3 valores reais entre 1 e 10
-valores_reais = randlist(size=3, max_val=10, use_floats=True) ou valores_reais = randlist(3,10,False,True)
+# Gerando 3 valores reais únicos entre 1 e 10
+# (Você também poderia usar a forma nomeada: randlist(size=3, max_val=10, use_floats=True))
+valores_reais = randlist(3, 10, False, True)
 
 print(valores_reais)
 # Possível saída: [7.34512, 1.98345, 4.56789]
------------------------------------------------------------------------------
+```
+
+#### 4. Tratamento de Erro (Princípio das Casas dos Pombos)
+A biblioteca conta com **Segurança Matemática Interna**. O Princípio das Casas dos Pombos afirma que se você tem N pombos para M casas, e N > M, 
+pelo menos uma casa terá mais de um pombo. 
+
+Na programação, isso significa que **é impossível** gerar uma lista de números inteiros exclusivos se a quantidade desejada for maior que o intervalo disponível. Se isso for tentado, o algoritmo intercepta a falha e levanta um `ValueError` para evitar loops infinitos:
+
+```python
 from marcos_randtools import randlist
 
 # Tentando gerar 10 números ÚNICOS entre 1 e 5 (Impossível na matemática)
 try:
-    erro_matematico = randlist(size=10, max_val=5)
+    erro_matematico = randlist(10, 5)
 except ValueError as erro:
     print("Erro capturado:", erro)
 
 # Saída garantida: 
 # Erro capturado: Impossible to generate 10 unique integers within a limit of 5.
----------------------------------------------------------------------------------
+```
+
 ## Instalação
-Para instalar a biblioteca em seu ambiente de desenvolvimento, utilize o gerenciador de pacotes padrão do Python:
+Para instalar a biblioteca no seu ambiente de desenvolvimento, utilize o gestor de pacotes padrão do Python:
 
 ```bash
-pip install marcos-randtools
+pip install mauttos-randtools
+```
