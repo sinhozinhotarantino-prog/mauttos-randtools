@@ -1,4 +1,4 @@
-# marcos-randtools
+# mauttos-randtools
 
 Biblioteca para geração de listas numéricas aleatórias, desenvolvida com foco em aplicações matemáticas, testes lógicos e ensino de programação.
 
