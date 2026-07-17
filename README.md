@@ -1,4 +1,12 @@
 # mauttos-randtools
+How to Contribute
+If you would like to contribute to the project:
+
+Leave a star ⭐: It helps others find the project.
+
+Have a suggestion?: Open an Issue to share a bug report or an idea.
+
+Want to submit code?: Fork the project and submit your changes through a Pull Request.
 
 Biblioteca para geração de listas numéricas aleatórias, desenvolvida com foco em aplicações matemáticas, testes lógicos e ensino de programação.
 
@@ -88,3 +96,6 @@ Deixe uma estrela ⭐: Ajuda o projeto a ser encontrado por mais pessoas.
 Tem uma sugestão?: Abra uma Issue para falar de um erro ou ideia.
 
 Quer enviar código?: Faça uma cópia do projeto e envie suas alterações através de um Pull Request.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
