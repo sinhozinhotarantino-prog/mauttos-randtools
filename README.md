@@ -80,3 +80,11 @@ Para instalar a biblioteca no seu ambiente de desenvolvimento, utilize o gestor 
 ```bash
 pip install mauttos-randtools
 ```
+Como ajudar
+Se você quiser contribuir com o projeto:
+
+Deixe uma estrela ⭐: Ajuda o projeto a ser encontrado por mais pessoas.
+
+Tem uma sugestão?: Abra uma Issue para falar de um erro ou ideia.
+
+Quer enviar código?: Faça uma cópia do projeto e envie suas alterações através de um Pull Request.
